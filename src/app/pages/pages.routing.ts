@@ -1,10 +1,12 @@
-import { Routes, RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
-import { PagesComponent } from './pages.component';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { ChartComponent } from './chart/chart.component';
-import { ProgressComponent } from './progress/progress.component';
+import { Routes, RouterModule } from '@angular/router';
+
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { ChartComponent } from './chart/chart.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { PagesComponent } from './pages.component';
+import { ProgressComponent } from './progress/progress.component';
+import { PromisesComponent } from './promises/promises.component';
 
 const routes: Routes = [
 
@@ -16,6 +18,7 @@ const routes: Routes = [
       { path: 'chart', component: ChartComponent },
       { path: 'progress', component: ProgressComponent },
       { path: 'account-settings', component: AccountSettingsComponent },
+      { path: 'promises', component: PromisesComponent },
       // { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
     ],
   },
