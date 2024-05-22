@@ -14,6 +14,7 @@ export class SidebarService {
         { titulo: 'Main', url: '/' },
         { titulo: 'Progress', url: 'progress' },
         { titulo: 'Promises', url: 'promises' },
+        { titulo: 'Rxjs', url: 'rxjs' },
       ]
     },
   ];
